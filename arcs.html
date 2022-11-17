@@ -12,7 +12,7 @@
         <div class="logo">
             <a href=""><img src="https://logolook.net/wp-content/uploads/2021/08/One-Piece-Logo.png" alt=""></a>
         </div>
-        <div>
+        <div class="opcoes">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="chars.html">Characters</a></li>
@@ -21,13 +21,21 @@
                 <li><a href="https://onepieceex.net/" target="_blank">Opex</a></li>
             </ul>
         </div>
-        
-        <div class="navbar">
+        <div class="navbar" onclick="showNavBar()">
             <div></div>
             <div></div>
             <div></div>
         </div>
     </header>
+    <div class="navMenu" style="display: none;">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chars.html">Characters</a></li>
+            <li><a href="arcs.html">Arcs</a></li>
+            <li><a href="islands.html">Islands</a></li>
+            <li><a href="https://onepieceex.net/" target="_blank">Opex</a></li>
+        </ul>
+    </div>
 
     <main>
         <div class="title"><h1>Arcos</h1></div>
@@ -47,5 +55,7 @@
     <footer>
         <p>Todos os direitos reservados: Daniel Santos</p>
     </footer>
+    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
